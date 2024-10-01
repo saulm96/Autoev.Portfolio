@@ -1,0 +1,51 @@
+/* Nav and header*/
+header{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+}
+h2{
+    margin: 10px 10px;
+}
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(129, 168, 184);
+}
+
+.topNav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px 10px;
+    padding: 10px 0px;
+}
+.topNav ul li{
+    margin: 10px 10px
+}
+.topNav ul li a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.botNav{
+ display: flex;
+ justify-content: center;
+ background-color: rgb(164, 188, 194);
+}
+.botNav ul{
+    display: flex;
+    list-style-type: none;
+}
+.botNav ul li{
+    margin: -5px 10px;
+}
+.botNav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* body*/
+
+
