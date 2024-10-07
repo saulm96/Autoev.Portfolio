@@ -24,10 +24,6 @@ nav{
 .topNav ul li:hover{
     background-color: rgba(115, 45, 102, 0.39);
 }
-.topNav img:hover{
-    
-    
-}
 Nav ul li a{
     color: black;
     text-decoration: none;
@@ -51,8 +47,7 @@ nav img{
  flex-direction: row; 
  justify-content: center;
  padding: 10px 10px;
-
-margin: 0px 0px;
+ margin: 0px 0px;
 }
 .bottomNav ul li:hover{
     border: 1px;
@@ -60,6 +55,94 @@ margin: 0px 0px;
     background-color: rgba(218, 218, 244, 0.5);;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; 
+    padding: 20px;
+    background-color: #f3f3fb;
+    font-size: small; 
+    gap: 40px; 
+    border-top: 1px solid #ccc; 
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer section p {
+    margin: 0 0 8px;
+    font-weight: bold;
+}
+
+footer section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+footer section ul li {
+    display: inline-block;
+}
+
+footer section ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+footer section ul li a:hover {
+    color: blue;
+}
+
+footer .redes ul {
+    justify-content: center;
+}
+
+footer .redes ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+footer .termsOfUse ul {
+    flex-direction: column; /* Para que los enlaces estén en una columna */
+    align-items: center;
+    gap: 5px;
+}
+
+footer .termsOfUse ul li a {
+    text-align: center;
+}
+/*
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px;
+    font-size:xx-small;
+}
+footer section{
+    display: flex;
+    flex-direction: column;
+}
+footer section p{
+margin: 16px 16px;
+}
+footer section ul{
+    list-style-type: none;
+}
+footer section ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer section ul li a:hover{
+    color :blue;
+}
+*/
 
 
 
