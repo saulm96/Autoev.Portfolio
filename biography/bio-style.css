@@ -1,0 +1,123 @@
+/* Reset básico */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo para el main */
+main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la sección de presentación */
+.presentation {
+    margin-bottom: 30px;
+}
+
+.presentation h1 {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.presentation p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+/* Estilo para la sección de estudios */
+.studyingPathDiv {
+    margin-top: 30px;
+}
+
+.studyingPathDiv h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: black;
+}
+
+/* Contenedor para la lista de estudios */
+.studyingPathDiv > div {
+    display: flex;
+    flex-direction: column;
+    background: #E6E7F8;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+/* Títulos de cada sección de estudios */
+.HSList p,
+.BachelorsDiv p,
+.AdditDiv p {
+    font-weight: bold;
+    order: -1;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 90%;
+}
+
+/* Listas dentro de las secciones de estudios */
+.HSList ul,
+.BachelorsDiv ul,
+.AdditDiv ul {
+    margin-left: 0; /* Eliminar el margen izquierdo */
+    padding-left: 20px; 
+    width: 90%; 
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Estilo para imágenes */
+img {
+    margin-top: 10px;
+    max-width: 100%;
+    
+    order: 1;
+    align-self: center;
+}
+
+/* Estilo para texto final */
+p:last-of-type {
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+}
+
+
+@media (min-width: 600px) {
+    .studyingPathDiv > div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .studyingPathDiv > div p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .studyingPathDiv ul {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .studyingPathDiv img {
+        max-width: 150px;
+        margin: 0 auto;
+    }
+}
+
