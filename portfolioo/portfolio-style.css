@@ -1,0 +1,190 @@
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.certifications {
+    grid-template-columns: 1fr 1fr;
+}
+
+.presentationMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;;
+}
+
+.presentationMain img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 70%;
+    margin: 20px 0;
+}
+
+.presentationMain h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.presentationMain h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.presentationMain p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.skillsList {
+    padding: 20px;
+    background-color: #E6E7F8;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.skillsList h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    
+}
+
+.skillsList ul {
+    list-style-type: disc;
+    line-height: 1.8;
+}
+
+.skillsList ul li {
+    list-style-type: none;
+}
+
+
+.proyectList {
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.proyectList h4 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.proyectList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.proyectList ul li {
+    margin-bottom: 20px;
+}
+
+.proyectList ul li b {
+    display: block;
+    font-size: 1.2rem;
+}
+
+
+.certifications {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: #E6E7F8;
+    padding: 20px;
+    order: -1;
+}
+
+.certifications div {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.certifications p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.certifications h4 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.certifications ul li{
+    list-style-type: none;
+    text-align: left;
+}
+.references {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.references h4 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.references div {
+    margin-bottom: 20px;
+}
+
+.references ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.references ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.references ul li i {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+[role="main"] {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+
+    .presentationMain {
+        justify-content:space-between;
+        text-align: left;
+    }
+
+    .presentationMain img {
+        max-width: 200px;
+        margin-right: 30px;
+    }
+
+    .presentationMain p {
+        width: 100%;
+    }
+    .certifications {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .certifications {
+        grid-template-columns: 1fr ;
+    }
+}
